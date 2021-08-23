@@ -4,7 +4,7 @@
 [(False, '0'), (True, '1')] :: [(Bool, Char)]
 ([False, True], ['0', '1']) :: ([Bool], [Char])
 [tail, init, reverse] :: [[a] -> [a]]
-}
+-}
 
 {- exercise 2
 second :: [a] -> a
@@ -13,4 +13,4 @@ pair :: a -> b -> (a, b)
 double :: Num a => a -> a
 palindrome :: Eq a => [a] -> Bool
 twice :: (a -> a) -> a -> a
-}
+-}
